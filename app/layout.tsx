@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar"; // <-- match your actual filename
 import Footer from "@/components/Footer";
+import OpeningStatus from "@/components/OpeningStatus";
 
 const geistSans = Geist({ subsets: ["latin"] });
 const geistMono = Geist_Mono({ subsets: ["latin"] });
@@ -20,7 +21,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.className} ${geistMono.className} antialiased min-h-screen`}
       >
-        <Navbar />
+        <div className="sticky top-0 z-50">
+          {/* Top strip */}
+          <OpeningStatus />
+          {/* Your navbar */}
+          <Navbar />
+        </div>
         <main>{children}</main>
         <Footer />
       </body>

@@ -73,7 +73,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative mt-16 bg-emerald-950 text-emerald-50">
+    <footer className="relative  bg-emerald-950 text-emerald-50">
       {/* brand line */}
       <div className="mx-auto max-w-7xl px-4 pt-10 sm:pt-12">
         <div className="flex items-center gap-6">
@@ -174,7 +174,7 @@ export default function Footer() {
             {/* Address + Phone */}
             <ul className="mt-2 text-sm w-full max-w-[28rem]">
               {/* Address row */}
-              <li className="flex flex-nowrap items-start justify-center lg:justify-end gap-2 text-emerald-100/90">
+              <li className="flex items-start justify-center lg:justify-end gap-2 text-emerald-100/90">
                 <MapPin className="h-4 w-4 text-amber-300 shrink-0 mt-0.5" />
                 <a
                   href={MAPS_URL}
@@ -182,12 +182,13 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="min-w-0 break-words leading-tight hover:text-amber-300 underline-offset-4 hover:underline"
                 >
-                  {ADDRESS_TEXT}
+                  Mantsintie 1–3,
+                  <br className="block lg:hidden" /> Ilomantsi
                 </a>
               </li>
 
               {/* Phone row */}
-              <li className="mt-2 flex flex-nowrap items-start justify-center lg:justify-end gap-2 text-emerald-100/90">
+              <li className="mt-5 flex flex-nowrap items-start justify-center lg:justify-end gap-2 text-emerald-100/90">
                 <Phone className="h-4 w-4 text-amber-300 shrink-0 mt-0.5" />
                 <a
                   href="tel:+358465743809"
