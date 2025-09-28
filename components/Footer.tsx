@@ -75,14 +75,12 @@ export default function Footer() {
   return (
     <footer className="relative  bg-emerald-950 text-emerald-50">
       {/* brand line */}
-      <div className="mx-auto max-w-7xl px-4 pt-10 sm:pt-12">
-        <div className="flex items-center gap-6">
-          <div className="hidden h-px flex-1 bg-emerald-800/60 sm:block" />
-          <div className="text-center text-2xl font-extrabold tracking-wide">
-            <span className="text-amber-300">Ravintola</span> Aisha
-          </div>
-          <div className="hidden h-px flex-1 bg-emerald-800/60 sm:block" />
+      <div className="flex items-center gap-6 justify-center sm:justify-between">
+        <div className="hidden sm:block  h-px flex-1 bg-emerald-800/60" />
+        <div className="text-center text-2xl font-extrabold tracking-wide ">
+          <span className="text-amber-300">Ravintola</span> Aisha
         </div>
+        <div className="hidden sm:block h-px flex-1 bg-emerald-800/60" />
       </div>
 
       {/* 3 columns with equal spacing */}
@@ -233,13 +231,24 @@ export default function Footer() {
           <MapPin className="h-5 w-5 text-amber-300" />
           <h4 className="text-sm font-semibold">Find us</h4>
         </div>
-        <div className="overflow-hidden rounded-2xl ring-1 ring-emerald-800/60 shadow-[0_10px_30px_rgba(0,0,0,0.25)]">
+
+        {/* Made relative so the overlay link can cover the iframe */}
+        <div className="relative overflow-hidden rounded-2xl ring-1 ring-emerald-800/60 shadow-[0_10px_30px_rgba(0,0,0,0.25)]">
+          {/* Full-click overlay: opens Google Maps app/site */}
+          <a
+            href={MAPS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open in Google Maps"
+            className="absolute inset-0 z-10 cursor-pointer"
+          />
+
           <iframe
             title="Ravintola Aisha Location"
             src={`https://www.google.com/maps?q=${encodeURIComponent(
               ADDRESS_TEXT
             )}&output=embed`}
-            className="h-72 w-full"
+            className="h-72 w-full pointer-events-none" // <-- ensure overlay gets the click/tap
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
@@ -250,19 +259,6 @@ export default function Footer() {
       <div className="border-t border-emerald-800/60 bg-emerald-950/60">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-3 px-4 py-4 text-xs text-emerald-200 sm:flex-row">
           <p>Copyright © {year} Ravintola Aisha</p>
-          {/* <div className="flex items-center gap-3">
-            <Link href="/privacy" className="hover:text-amber-300">
-              Privacy Policy
-            </Link>
-            <span className="opacity-30">•</span>
-            <Link href="/terms" className="hover:text-amber-300">
-              Terms &amp; Conditions
-            </Link>
-            <span className="opacity-30">•</span>
-            <Link href="/support" className="hover:text-amber-300">
-              Support policy
-            </Link>
-          </div> */}
         </div>
       </div>
     </footer>
