@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar"; // <-- match your actual filename
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import OpeningStatus from "@/components/OpeningStatus";
 
@@ -19,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+        suppressHydrationWarning
         className={`${geistSans.className} ${geistMono.className} antialiased min-h-screen`}
       >
         <div className="sticky top-0 z-50">

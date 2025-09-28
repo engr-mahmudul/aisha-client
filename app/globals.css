@@ -24,3 +24,50 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ---------- Marquee utilities ---------- */
+@layer utilities {
+  /* Define keyframes here so utility exists even if config isn't read */
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    } /* list duplicated once */
+  }
+
+  /* Utility that uses a CSS var for per-instance speed */
+  .animate-marquee {
+    animation: marquee var(--marquee-duration, 20s) linear infinite;
+  }
+
+  /* Smooth/GPU-friendly transforms */
+  .marquee-track {
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+  }
+
+  /* Pause on hover (desktop) */
+  .marquee-track:hover {
+    animation-play-state: paused;
+  }
+
+  /* Optional: allow manual scroll on mobile if animation is off */
+  .marquee-scroll {
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .marquee-scroll::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track,
+  .animate-marquee {
+    animation: none !important;
+    transform: none !important;
+  }
+}
