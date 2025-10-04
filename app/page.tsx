@@ -3,7 +3,7 @@
 import ServingSince from "@/components/ ServingSince";
 import FoodCategories from "@/components/FoodCategories";
 import Hero from "@/components/Hero";
-import WideShowcaseImage from "@/components/WideShowcaseImage";
+import WideShowcaseDocument from "@/components/WideShowcaseImage";
 
 export default function HomePage() {
   return (
@@ -11,11 +11,7 @@ export default function HomePage() {
       <Hero />
       <FoodCategories />
 
-      <WideShowcaseImage
-        src="/assets/images/Menu.png" // put file under /public
-        alt="Restaurant banner"
-        caption="Our Signature Menu"
-      />
+      <WideShowcaseDocument src="/assets/menu.pdf" alt="Restaurant menu PDF" />
       <ServingSince />
     </div>
   );
