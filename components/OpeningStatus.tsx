@@ -61,12 +61,12 @@ export default function OpeningStatus() {
 
   return (
     <div className="sticky top-0 z-50 w-full bg-emerald-900 text-emerald-50 text-sm shadow-md">
-      <div className="mx-auto max-w-7xl w-full px-6 md:px-10 py-2 flex items-center justify-between gap-3">
+      <div className="mx-auto max-w-7xl w-full px-1 md:px-10 py-2 flex items-center justify-between gap-3">
         {/* LEFT: mobile vs desktop content */}
         {/* Mobile: show ONLY status */}
-        <div className="sm:hidden font-semibold">
+        <div className="sm:hidden font-semibold pl-1">
           {isOpen ? (
-            <span className="text-amber-300">Open Now</span>
+            <span className="text-amber-300">We are open now </span>
           ) : (
             <span className="text-red-400">Closed Now</span>
           )}
@@ -77,7 +77,7 @@ export default function OpeningStatus() {
           <span>Today&apos;s Opening Hour ({prettyToday})</span>
           <span className="opacity-50">|</span>
           {isOpen ? (
-            <span className="text-amber-300 font-semibold">Open Now</span>
+            <span className="text-amber-300 font-semibold">Open now</span>
           ) : (
             <span className="text-red-400 font-semibold">Closed Now</span>
           )}
@@ -86,7 +86,7 @@ export default function OpeningStatus() {
         {/* RIGHT: Call Now (always visible) */}
         <a
           href="tel:+358465743809"
-          className="shrink-0 inline-flex items-center gap-1 hover:text-amber-300 underline-offset-4 hover:underline"
+          className="shrink-0 inline-flex items-center gap-1 border-2 border-amber-300 text-amber-300 px-3 py-1 rounded-full transition-colors duration-200 hover:bg-amber-300 hover:text-white"
         >
           <Phone className="h-4 w-4" />
           Call Now

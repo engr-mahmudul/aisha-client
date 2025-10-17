@@ -73,7 +73,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative  bg-emerald-950 text-emerald-50">
+    <footer className="relative  bg-emerald-950 text-emerald-50 pt-5">
       {/* brand line */}
       <div className="flex items-center gap-6 justify-center sm:justify-between">
         <div className="hidden sm:block  h-px flex-1 bg-emerald-800/60" />
