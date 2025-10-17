@@ -43,10 +43,16 @@ const dummyMenu: FoodCardProps[] = [
       "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=1974&auto=format&fit=crop",
     name: "Caesar Salad",
     ingredients: [
-      "Romaine Lettuce",
-      "Croutons",
-      "Parmesan",
-      "Caesar Dressing",
+      "Tomato",
+      "Mozzarella",
+      "Basil",
+      "Olive Oil",
+      "Salt",
+      "Flour",
+      "Yeast",
+      "Water",
+      "Garlic",
+      "Oregano",
       "Anchovies",
     ],
     price: 8.99,
@@ -147,15 +153,9 @@ export default function MenuPage() {
       {/* Modal */}
       {selected && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm"
           aria-modal="true"
         >
-          {/* Backdrop */}
-          <div
-            className="absolute inset-0 bg-black/50"
-            onClick={() => setSelected(null)}
-          />
-
           {/* Modal content */}
           <div className="relative z-10 max-w-2xl w-[92vw] sm:w-[85vw] md:w-[720px] rounded-2xl bg-white shadow-xl border border-gray-200 overflow-hidden">
             {/* Header */}
@@ -178,7 +178,8 @@ export default function MenuPage() {
             </div>
 
             {/* Body */}
-            <div className="p-5">
+            {/* Body */}
+            <div className="p-3 pt-5 sm:p-5">
               <div className="relative w-full h-auto rounded-lg overflow-hidden mb-4 bg-black/5 flex justify-center">
                 <img
                   src={selected.imageSrc}
@@ -187,31 +188,17 @@ export default function MenuPage() {
                 />
               </div>
 
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <h3 className="text-sm font-semibold text-gray-900 mb-2">
-                    Ingredients
-                  </h3>
-                  <ul className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-700">
-                    {selected.ingredients.slice(0, 10).map((ing, i) => (
-                      <li key={i} className="truncate">
-                        {ing}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div>
-                  {selected.badge && (
-                    <span className="inline-block mb-3 rounded-full border px-3 py-1 text-xs font-medium text-gray-700 bg-gray-50">
-                      {selected.badge}
-                    </span>
-                  )}
-                  <p className="text-gray-600 text-sm">
-                    A delicious selection crafted with premium ingredients for a
-                    delightful experience.
-                  </p>
-                </div>
+              <div>
+                <h3 className="text-sm font-semibold text-gray-900 mb-2">
+                  Ingredients
+                </h3>
+                <ul className="grid grid-cols-3 gap-x-4 gap-y-1 text-sm text-gray-700">
+                  {selected.ingredients.slice(0, 15).map((ing, i) => (
+                    <li key={i} className="truncate">
+                      {ing}
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
 
