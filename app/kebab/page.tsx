@@ -41,7 +41,7 @@ export default function MenuPage() {
     <div className="min-h-screen bg-white">
       <main className="p-2 sm:6 md:6 lg:6 mx-auto max-w-7xl min-h-screen">
         <h1 className="text-2xl font-bold mb-6 text-center text-gray-800">
-          PIZZA
+          KEBAB
         </h1>
 
         <div className="grid gap-2 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">

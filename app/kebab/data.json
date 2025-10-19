@@ -1,6 +1,6 @@
 [
   {
-    "imageSrc": "/assets/images/image2.png",
+    "imageSrc": "/assets/images/image3.png",
     "imageAlt": "Kebab Menu Image",
     "id": 27,
     "englishName": "PITA BREAD KEBAB",
@@ -13,7 +13,7 @@
     "kebabPrice": 11.0
   },
   {
-    "imageSrc": "/assets/images/image2.png",
+    "imageSrc": "/assets/images/image3.png",
     "imageAlt": "Kebab Menu Image",
     "id": 28,
     "englishName": "KEBAB WITH RICE",
@@ -26,7 +26,7 @@
     "kebabPrice": 11.0
   },
   {
-    "imageSrc": "/assets/images/image2.png",
+    "imageSrc": "/assets/images/image3.png",
     "imageAlt": "Kebab Menu Image",
     "id": 29,
     "englishName": "KEBAB WITH FRENCH FRIES",
@@ -39,7 +39,7 @@
     "kebabPrice": 11.0
   },
   {
-    "imageSrc": "/assets/images/image2.png",
+    "imageSrc": "/assets/images/image3.png",
     "imageAlt": "Kebab Menu Image",
     "id": 30,
     "englishName": "KEBAB WITH POTATO WEDGES",
@@ -52,7 +52,7 @@
     "kebabPrice": 11.0
   },
   {
-    "imageSrc": "/assets/images/image2.png",
+    "imageSrc": "/assets/images/image3.png",
     "imageAlt": "Kebab Menu Image",
     "id": 31,
     "englishName": "KEBAB ROLL",
@@ -65,7 +65,7 @@
     "kebabPrice": 11.5
   },
   {
-    "imageSrc": "/assets/images/image2.png",
+    "imageSrc": "/assets/images/image3.png",
     "imageAlt": "Kebab Menu Image",
     "id": 32,
     "englishName": "ISKENDER KEBAB",
@@ -78,20 +78,20 @@
     "kebabPrice": 11.0
   },
   {
-    "imageSrc": "/assets/images/image2.png",
+    "imageSrc": "/assets/images/image3.png",
     "imageAlt": "Kebab Menu Image",
     "id": 33,
     "englishName": "KEBAB MIX",
     "finnishName": "KEBABMIX",
-    "ingredients": ["kebab", "chicken", "fries", "salad"],
-    "finnishIngredients": ["kebab", "kana", "ranskalaiset", "salaatti"],
-    "badgeInEnglish": "Kebab and chicken, fries, salad",
-    "badgeInFinnish": "Kebab ja kana, ranskalaiset, salaatti",
+    "ingredients": ["Kebab or chicken", "fries", "salad"],
+    "finnishIngredients": ["Kebab ja kana", "ranskalaiset", "salaatti"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
     "chickenPrice": 13.0,
     "kebabPrice": 13.0
   },
   {
-    "imageSrc": "/assets/images/image2.png",
+    "imageSrc": "/assets/images/image3.png",
     "imageAlt": "Kebab Menu Image",
     "id": 34,
     "englishName": "FRIED CHICKEN ROLL",
