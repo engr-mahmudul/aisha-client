@@ -1,0 +1,346 @@
+[
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Asian Dish Image",
+    "id": 40,
+    "englishName": "CHICKEN KORMA",
+    "finnishName": "KANA KORMA",
+    "ingredients": [
+      "Grilled chicken",
+      "Lightly spiced cream sauce",
+      "Cashew nuts",
+      "Onion",
+      "Garam masala",
+      "Herbs",
+      "Spices"
+    ],
+    "finnishIngredients": [
+      "Grillattua kanaa",
+      "Kevyesti maustettua kermakastiketta",
+      "Cashewpähkinöitä",
+      "Sipulia",
+      "Garam masalaa",
+      "Yrttejä",
+      "Mausteita"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 17.0
+  },
+  {
+    "id": 41,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "BUTTER CHICKEN",
+    "finnishName": "KANAA VOIKASTIKKEESSA",
+    "ingredients": [
+      "Grilled chicken",
+      "Aromatic cream sauce",
+      "Butter",
+      "Almonds"
+    ],
+    "finnishIngredients": [
+      "Grillattua kanaa",
+      "Aromikasta kermakastiketta",
+      "Voi",
+      "Manteleita"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 17.5
+  },
+  {
+    "id": 42,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "CHICKEN MANGO",
+    "finnishName": "MANGOKANAA",
+    "ingredients": ["Grilled chicken", "Mango cream sauce", "Herbs", "Spices"],
+    "finnishIngredients": [
+      "Grillattua kanaa",
+      "Mangokermakastiketta",
+      "Yrttejä",
+      "Mausteita"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 17.0
+  },
+  {
+    "id": 43,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "CHICKEN MALAI",
+    "finnishName": "KANA MALAI",
+    "ingredients": [
+      "Marinated grilled chicken",
+      "Yogurt sauce",
+      "Cream",
+      "Cashew nuts",
+      "Black pepper",
+      "Garam masala",
+      "Ginger",
+      "Garlic",
+      "Spices"
+    ],
+    "finnishIngredients": [
+      "Marinoitua grillattua kanaa",
+      "Jogurttikastiketta",
+      "Kermaa",
+      "Cashewpähkinöitä",
+      "Mustapippuria",
+      "Garam masalaa",
+      "Inkivääriä",
+      "Valkosipulia",
+      "Mausteita"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 18.9
+  },
+  {
+    "id": 44,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "MUGHLAI CHICKEN",
+    "finnishName": "KANA MUGHLAI",
+    "ingredients": [
+      "Grilled chicken",
+      "Lightly spiced cream sauce",
+      "Onion",
+      "Cashew nuts",
+      "Garam masala",
+      "Herbs",
+      "Spices"
+    ],
+    "finnishIngredients": [
+      "Grillattua kanaa",
+      "Kevyesti maustettua kermakastiketta",
+      "Sipulia",
+      "Cashewpähkinöitä",
+      "Garam masalaa",
+      "Yrttejä",
+      "Mausteita"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 18.9
+  },
+  {
+    "id": 45,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "CHICKEN TIKKA MASALA",
+    "finnishName": "KANAA TIKKA MASALA",
+    "ingredients": [
+      "Marinated grilled chicken",
+      "Aromatic cream tomato sauce",
+      "Exotic spices",
+      "Herbs"
+    ],
+    "finnishIngredients": [
+      "Marinoitua grillattua kanaa",
+      "Aromikasta kermatomaattikastiketta",
+      "Eksoottisia mausteita",
+      "Yrttejä"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 17.5
+  },
+  {
+    "id": 46,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "CHICKEN COCONUT",
+    "finnishName": "KOOKOSKANAA",
+    "ingredients": [
+      "Exotic marinated chicken",
+      "Coconut sauce",
+      "Cashew nuts",
+      "Spices"
+    ],
+    "finnishIngredients": [
+      "Eksoottisesti marinoitua kanaa",
+      "Kookoskastiketta",
+      "Cashewpähkinöitä",
+      "Mausteita"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 17.0
+  },
+  {
+    "id": 47,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "CHICKEN MADRAS",
+    "finnishName": "MADRAS KANAA",
+    "ingredients": [
+      "Spicy tomato cream sauce",
+      "Grilled chicken",
+      "Herbs",
+      "Spices"
+    ],
+    "finnishIngredients": [
+      "Tulisesti maustettua kermatomaattikastiketta",
+      "Grillattua kanaa",
+      "Yrttejä",
+      "Mausteita"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 17.0
+  },
+  {
+    "id": 48,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "BIRYANI CHICKEN / LAMB",
+    "finnishName": "BIRYANI KANA / LAMMAS",
+    "ingredients": [
+      "Spiced rice",
+      "Grilled chicken or lamb",
+      "Raisins",
+      "Onion",
+      "Cashew nuts",
+      "Kewra water"
+    ],
+    "finnishIngredients": [
+      "Maustettua riisiä",
+      "Grillattua kanaa tai lammasta",
+      "Rusinoita",
+      "Sipulia",
+      "Cashewpähkinöitä",
+      "Kewra-vettä"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 18.0
+  },
+  {
+    "id": 49,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "LAMB REZALA MILD / HOT",
+    "finnishName": "LAMMAS REZALA MIETO / HOT",
+    "ingredients": [
+      "Mild or spicy cream sauce",
+      "Grilled lamb",
+      "Onion",
+      "Garam masala",
+      "Herbs",
+      "Spices"
+    ],
+    "finnishIngredients": [
+      "Miedosti tai tulisesti maustettua kermakastiketta",
+      "Grillattua lammasta",
+      "Sipulia",
+      "Garam masalaa",
+      "Yrttejä",
+      "Mausteita"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 19.0
+  },
+  {
+    "id": 50,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "GIANT SHRIMP KORMA MILD / HOT",
+    "finnishName": "JÄTTIKATKARAPU KORMA MIETO / HOT",
+    "ingredients": [
+      "Giant shrimp",
+      "Cream sauce",
+      "Cashew nuts",
+      "Onion",
+      "Garam masala",
+      "Herbs",
+      "Spices"
+    ],
+    "finnishIngredients": [
+      "Jättikatkarapuja",
+      "Kermakastiketta",
+      "Cashewpähkinöitä",
+      "Sipulia",
+      "Garam masalaa",
+      "Yrttejä",
+      "Mausteita"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 17.9
+  },
+  {
+    "id": 51,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "SPINACH AND PANEER",
+    "finnishName": "PINAATTIA JA HALLOUMIA",
+    "ingredients": ["Spinach", "Halloumi cheese", "Herbs", "Spices"],
+    "finnishIngredients": [
+      "Pinaattia",
+      "Halloumi-juustoa",
+      "Yrttejä",
+      "Mausteita"
+    ],
+    "badgeInEnglish": "VEGAN",
+    "badgeInFinnish": "VEGAANIANNOKSET",
+    "price": 16.0
+  },
+  {
+    "id": 52,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "FULKOPIR KORMA MILD OR HOT",
+    "finnishName": "KUKKAKAALI KORMA MIETO TAI HOT",
+    "ingredients": [
+      "Cauliflower",
+      "Cashew nuts",
+      "Onion",
+      "Garam masala",
+      "Herbs",
+      "Spices"
+    ],
+    "finnishIngredients": [
+      "Kukkakaalia",
+      "Cashewpähkinöitä",
+      "Sipulia",
+      "Garam masalaa",
+      "Yrttejä",
+      "Mausteita"
+    ],
+    "badgeInEnglish": "VEGAN",
+    "badgeInFinnish": "VEGAANIANNOKSET",
+    "price": 16.0
+  },
+  {
+    "id": 53,
+    "imageSrc": "/assets/images/image1.png",
+    "imageAlt": "Asian Dish Image",
+    "englishName": "DAL-TARKA",
+    "finnishName": "MAUSTETTUA LINSSIKASTIKETTA",
+    "ingredients": [
+      "Spiced lentil sauce",
+      "Coconut milk",
+      "Ginger",
+      "Garlic",
+      "Onion",
+      "Herbs",
+      "Spices"
+    ],
+    "finnishIngredients": [
+      "Maustettua linssikastiketta",
+      "Kookosmaitoa",
+      "Inkivääriä",
+      "Valkosipulia",
+      "Sipulia",
+      "Yrttejä",
+      "Mausteita"
+    ],
+    "badgeInEnglish": "VEGAN",
+    "badgeInFinnish": "VEGAANIANNOKSET",
+    "price": 16.0
+  }
+]

@@ -141,7 +141,7 @@ export default function Hero() {
             alt="Food 3"
             fill
             sizes="(min-width: 768px) 16rem, 12rem"
-            className="object-cover object-[50%_35%] select-none pointer-events-none"
+            className="object-contain object-[50%_35%] select-none pointer-events-none"
           />
         </motion.div>
 

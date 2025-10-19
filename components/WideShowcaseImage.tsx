@@ -15,15 +15,15 @@ export default function WideShowcaseDocument({
   src,
   alt,
   caption,
-  className = "mx-auto max-w-7xl px-4 py-12",
-  pdfHeightClassName = "h-[90vh]", // taller so single-page fits nicely
+  className = "mx-auto max-w-7xl px-1 py-1 ",
+  pdfHeightClassName = "h-[60vh] md:h-[90vh] lg:h-[120vh] xl:h-[98vh]", // taller so single-page fits nicely
 }: Props) {
   const isPdf =
     typeof src === "string" && src.toLowerCase().trim().endsWith(".pdf");
 
   return (
     <section className={className}>
-      <div className="text-center max-w-3xl mx-auto">
+      <div className="text-center max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-extrabold text-neutral-900 leading-tight">
           Restaurant <span className="text-red-600">Menu</span>
         </h2>
@@ -37,35 +37,22 @@ export default function WideShowcaseDocument({
       </div>
 
       {/* Same container & card */}
-      <div className="relative mx-auto w-full max-w-[1100px] overflow-hidden rounded-[44px] ring-1 ring-red-700/15 bg-[#F7F2E2] mt-10">
+      <div className="relative mx-auto w-full max-w-7xl  overflow-hidden rounded-[44px] ring-1 ring-red-700/15 bg-[#F7F2E2] mt-10 sm:px-4 md:px-2 lg:px-5">
         <div className="p-4 sm:p-6 lg:p-8">
-          <div className="relative overflow-hidden rounded-[36px] bg-white ring-1 ring-red-700/15">
-            {isPdf ? (
-              <iframe
-                src={`${
-                  src as string
-                }#view=FitH&toolbar=0&navpanes=0&scrollbar=0`}
-                title={alt}
-                className={`w-full ${pdfHeightClassName}`}
-              />
-            ) : (
-              <Image
-                src={src}
-                alt={alt}
-                width={2200}
-                height={1100}
-                sizes="(min-width: 1100px) 1100px, 100vw"
-                style={{ width: "100%", height: "auto" }}
-                priority
-                className="select-none pointer-events-none"
-              />
-            )}
-
-            {caption && (
-              <div className="absolute bottom-3 left-3 rounded-full bg-white/95 px-3 py-1 text-xs font-medium text-neutral-700 ring-1 ring-red-700/15">
-                {caption}
-              </div>
-            )}
+          {/* Break out of the padding */}
+          <div className="-mx-4 sm:-mx-6 lg:-mx-8">
+            {/* Centered 95% container */}
+            <div className="w-full mx-auto relative overflow-x-hidden rounded-[36px] bg-white ring-1 ring-red-700/15">
+              {isPdf && (
+                <iframe
+                  src={`${
+                    src as string
+                  }#view=FitH&toolbar=0&navpanes=0&scrollbar=0`}
+                  title={alt}
+                  className={`block w-full ${pdfHeightClassName}`}
+                />
+              )}
+            </div>
           </div>
         </div>
       </div>
