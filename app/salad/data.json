@@ -1,0 +1,88 @@
+[
+  {
+    "id": 59,
+    "imageSrc": "/assets/images/salad.png",
+    "imageAlt": "Salad Menu Image",
+    "englishName": "KEBAB OR CHICKEN KEBAB SALAD",
+    "finnishName": "KEBAB-/KANAKEBAB SALAATILLA",
+    "ingredients": [
+      "Chicken kebab",
+      "salad",
+      "tomato",
+      "red onion",
+      "kebab sauce",
+      "bread"
+    ],
+    "finnishIngredients": [
+      "kanakebab",
+      "salaatti",
+      "tomaatti",
+      "punasipuli",
+      "kebabkastike",
+      "leipä"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 12.0
+  },
+  {
+    "id": 60,
+    "imageSrc": "/assets/images/salad.png",
+    "imageAlt": "Salad Menu Image",
+    "englishName": "FRIED CHICKEN SALAD",
+    "finnishName": "FRITEERATTU KANASALAATTI",
+    "ingredients": [
+      "Chicken",
+      "salad",
+      "tomato",
+      "cucumber",
+      "onion",
+      "garlic",
+      "kebab sauce",
+      "bread"
+    ],
+    "finnishIngredients": [
+      "kana",
+      "salaatti",
+      "tomaatti",
+      "kurkku",
+      "sipuli",
+      "valkosipuli",
+      "kebabkastike",
+      "leipä"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 15.0
+  },
+  {
+    "id": 61,
+    "imageSrc": "/assets/images/salad.png",
+    "imageAlt": "Salad Menu Image",
+    "englishName": "CAESAR SALAD",
+    "finnishName": "CAESARSALAATTI",
+    "ingredients": [
+      "Marinated chicken",
+      "parmesan cheese",
+      "cucumber",
+      "tomato",
+      "croutons",
+      "salad",
+      "dressing",
+      "bread"
+    ],
+    "finnishIngredients": [
+      "marinoitu kana",
+      "parmesaanijuusto",
+      "kurkku",
+      "tomaatti",
+      "krutonki",
+      "salaatti",
+      "kastike",
+      "leipä"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 16.0
+  }
+]
