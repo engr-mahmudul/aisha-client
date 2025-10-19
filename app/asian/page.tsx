@@ -39,7 +39,8 @@ export default function Asian() {
   }, [selected]);
 
   // Safely get currency using `any`, default to EUR
-  const selectedCurrency: string = ((selected ?? {}) as any).currency ?? "EUR";
+  const selectedCurrency: string =
+    ((selected ?? {}) as { currency?: string }).currency ?? "EUR";
 
   return (
     <div className="min-h-screen bg-white">
