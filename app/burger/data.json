@@ -1,0 +1,72 @@
+[
+  {
+    "imageSrc": "/assets/images/image4.png",
+    "imageAlt": "Burger Menu Image",
+    "id": 35,
+    "englishName": "CHEESEBURGER",
+    "finnishName": "JUUSTOHAMPURILAINEN",
+    "ingredients": ["beef patty", "cheese", "bun", "salad"],
+    "finnishIngredients": ["naudanpihvi", "juusto", "sämpylä", "salaatti"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "burgerPrice": 4.0,
+    "ateriaPrice": 6.5
+  },
+  {
+    "imageSrc": "/assets/images/image4.png",
+    "imageAlt": "Burger Menu Image",
+    "id": 36,
+    "englishName": "DOUBLE CHEESEBURGER",
+    "finnishName": "TUPLAJUUSTOHAMPURILAINEN",
+    "ingredients": ["double beef patty", "cheese", "bun", "salad"],
+    "finnishIngredients": [
+      "tupla naudanpihvi",
+      "juusto",
+      "sämpylä",
+      "salaatti"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "burgerPrice": 7.0,
+    "ateriaPrice": 9.0
+  },
+  {
+    "imageSrc": "/assets/images/image4.png",
+    "imageAlt": "Burger Menu Image",
+    "id": 37,
+    "englishName": "BIG BURGER / MEAL",
+    "finnishName": "BIG BURGER / ATERIA",
+    "ingredients": ["large beef patty", "cheese", "bun", "salad"],
+    "finnishIngredients": ["iso naudanpihvi", "juusto", "sämpylä", "salaatti"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "burgerPrice": 11.0,
+    "ateriaPrice": 13.0
+  },
+  {
+    "imageSrc": "/assets/images/image4.png",
+    "imageAlt": "Burger Menu Image",
+    "id": 38,
+    "englishName": "CHICKEN BURGER / MEAL",
+    "finnishName": "KANABURGER / ATERIA",
+    "ingredients": ["chicken patty", "cheese", "bun", "salad"],
+    "finnishIngredients": ["kana", "juusto", "sämpylä", "salaatti"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "burgerPrice": 6.5,
+    "ateriaPrice": 8.5
+  },
+  {
+    "imageSrc": "/assets/images/image7.png",
+    "imageAlt": "Burger Menu Image",
+    "id": 39,
+    "englishName": "FRENCH FRIES",
+    "finnishName": "RANSKALAISET",
+    "ingredients": ["french fries"],
+    "finnishIngredients": ["ranskalaiset"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "burgerPrice": 3.0,
+    "ateriaPrice": 6.0
+  }
+]
