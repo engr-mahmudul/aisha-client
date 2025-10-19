@@ -63,7 +63,7 @@ export default function FoodCard({
       <div className="relative w-full h-36 sm:h-44 md:h-48 overflow-hidden">
         <img
           src={imageSrc}
-          alt={imageAlt || name}
+          alt={imageAlt}
           className="w-full h-full object-contain transition duration-300 group-hover:scale-105"
           loading="lazy"
         />
