@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import FoodCard, { FoodCardProps } from "@/components/FoodCard";
 import data from "./asian.json";
+
 type MenuItem = {
   id: number;
   englishName: string;
@@ -12,9 +13,10 @@ type MenuItem = {
   badgeInEnglish: string;
   badgeInFinnish: string;
   price: number;
-  imageSrc: string; // <-- was imgSrc
-  imageAlt: string; // <-- was imgAlt
+  imageSrc: string;
+  imageAlt: string;
 };
+
 export default function Asian() {
   const dummyMenu = data as MenuItem[];
   const [selected, setSelected] = useState<FoodCardProps | null>(null);
@@ -36,6 +38,9 @@ export default function Asian() {
     }
   }, [selected]);
 
+  // Safely get currency using `any`, default to EUR
+  const selectedCurrency: string = ((selected ?? {}) as any).currency ?? "EUR";
+
   return (
     <div className="min-h-screen bg-white">
       <main className="p-2 sm:6 md:6 lg:6 mx-auto max-w-7xl min-h-screen">
@@ -44,12 +49,12 @@ export default function Asian() {
         </h1>
 
         <div className="grid gap-2 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
-          {dummyMenu.map((item, i) => (
+          {dummyMenu.map((item) => (
             <FoodCard
               key={item.id}
               imageSrc={item.imageSrc}
               imageAlt={item.imageAlt}
-              englishName={item.englishName} // <-- map to name
+              englishName={item.englishName}
               ingredients={item.ingredients}
               finnishIngredients={item.finnishIngredients}
               price={item.price}
@@ -60,7 +65,7 @@ export default function Asian() {
                 setSelected({
                   imageSrc: item.imageSrc,
                   imageAlt: item.imageAlt,
-                  englishName: item.englishName, // <-- map here too
+                  englishName: item.englishName,
                   ingredients: item.ingredients,
                   finnishIngredients: item.finnishIngredients,
                   price: item.price,
@@ -115,7 +120,6 @@ export default function Asian() {
                   <h3 className="text-sm font-semibold text-gray-900 mb-2">
                     Ingredients
                   </h3>
-                  {/* 2 columns, full names (no truncate), nice wrapping */}
                   <ul
                     className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-800 list-disc pl-5"
                     aria-label="Ingredients"
@@ -139,7 +143,7 @@ export default function Asian() {
                   {typeof selected.price === "number"
                     ? new Intl.NumberFormat(undefined, {
                         style: "currency",
-                        currency: (selected as any).currency || "EUR",
+                        currency: selectedCurrency, // <- guaranteed string
                         maximumFractionDigits: 2,
                       }).format(selected.price)
                     : selected.price}

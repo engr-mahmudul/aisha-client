@@ -45,7 +45,7 @@ export default function MenuPage() {
         </h1>
 
         <div className="grid gap-2 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
-          {dummyMenu.map((item, i) => (
+          {dummyMenu.map((item) => (
             <PizzaCard
               key={item.id}
               imageSrc={item.imageSrc}
