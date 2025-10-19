@@ -14,37 +14,37 @@ const DEFAULT_CATEGORIES: Category[] = [
   {
     id: "asian",
     name: "Asian",
-    itemsAvailable: 25,
+    itemsAvailable: 14,
     imageSrc: "/assets/images/image1.png",
   },
   {
     id: "burger",
     name: "Burger",
-    itemsAvailable: 35,
+    itemsAvailable: 5,
     imageSrc: "/assets/images/image4.png",
   },
   {
     id: "grill",
     name: "Grill",
-    itemsAvailable: 25,
+    itemsAvailable: 2,
     imageSrc: "/assets/images/middle-2.png",
   },
   {
     id: "kebab",
     name: "Kebab",
-    itemsAvailable: 22,
+    itemsAvailable: 8,
     imageSrc: "/assets/images/image3.png",
   },
   {
     id: "pizza",
     name: "Pizza",
-    itemsAvailable: 23,
+    itemsAvailable: 26,
     imageSrc: "/assets/images/image2.png",
   },
   {
     id: "salad",
     name: "Salad",
-    itemsAvailable: 22,
+    itemsAvailable: 3,
     imageSrc: "/assets/images/salad.png",
   },
   {
@@ -56,7 +56,7 @@ const DEFAULT_CATEGORIES: Category[] = [
   {
     id: "drinks",
     name: "Drinks",
-    itemsAvailable: 22,
+    itemsAvailable: 2,
     imageSrc: "/assets/images/drinks.png",
   },
 ];

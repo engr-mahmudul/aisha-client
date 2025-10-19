@@ -1,0 +1,112 @@
+[
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Kebab Menu Image",
+    "id": 27,
+    "englishName": "PITA BREAD KEBAB",
+    "finnishName": "PITALEIPÄ KEBAB",
+    "ingredients": ["kebab", "bread", "salad"],
+    "finnishIngredients": ["kebab", "pita", "salaatti"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "chickenPrice": 11.0,
+    "kebabPrice": 11.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Kebab Menu Image",
+    "id": 28,
+    "englishName": "KEBAB WITH RICE",
+    "finnishName": "KEBAB RIISILLÄ",
+    "ingredients": ["kebab", "rice", "salad"],
+    "finnishIngredients": ["kebab", "riisi", "salaatti"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "chickenPrice": 11.0,
+    "kebabPrice": 11.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Kebab Menu Image",
+    "id": 29,
+    "englishName": "KEBAB WITH FRENCH FRIES",
+    "finnishName": "KEBAB RANSKALAISILLA",
+    "ingredients": ["kebab", "fries", "salad"],
+    "finnishIngredients": ["kebab", "ranskalaiset", "salaatti"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "chickenPrice": 11.0,
+    "kebabPrice": 11.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Kebab Menu Image",
+    "id": 30,
+    "englishName": "KEBAB WITH POTATO WEDGES",
+    "finnishName": "KEBAB LOHKOPERUNOILLA",
+    "ingredients": ["kebab", "potato wedges", "salad"],
+    "finnishIngredients": ["kebab", "lohkoperunat", "salaatti"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "chickenPrice": 11.0,
+    "kebabPrice": 11.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Kebab Menu Image",
+    "id": 31,
+    "englishName": "KEBAB ROLL",
+    "finnishName": "KEBABRULLA",
+    "ingredients": ["kebab", "bread", "salad"],
+    "finnishIngredients": ["kebab", "rulla", "salaatti"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "chickenPrice": 11.5,
+    "kebabPrice": 11.5
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Kebab Menu Image",
+    "id": 32,
+    "englishName": "ISKENDER KEBAB",
+    "finnishName": "ISKENDER KEBAB",
+    "ingredients": ["kebab", "bread", "tomato sauce", "yogurt"],
+    "finnishIngredients": ["kebab", "leipä", "tomaattikastike", "jogurtti"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "chickenPrice": 11.0,
+    "kebabPrice": 11.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Kebab Menu Image",
+    "id": 33,
+    "englishName": "KEBAB MIX",
+    "finnishName": "KEBABMIX",
+    "ingredients": ["kebab", "chicken", "fries", "salad"],
+    "finnishIngredients": ["kebab", "kana", "ranskalaiset", "salaatti"],
+    "badgeInEnglish": "Kebab and chicken, fries, salad",
+    "badgeInFinnish": "Kebab ja kana, ranskalaiset, salaatti",
+    "chickenPrice": 13.0,
+    "kebabPrice": 13.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Kebab Menu Image",
+    "id": 34,
+    "englishName": "FRIED CHICKEN ROLL",
+    "finnishName": "FRITEERATTU KANARULLA",
+    "ingredients": ["chicken", "tortilla chips", "jalapeno", "onion", "salad"],
+    "finnishIngredients": [
+      "kana",
+      "tortilla chips",
+      "jalopeno",
+      "sipuli",
+      "salaatti"
+    ],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "chickenPrice": 15.0,
+    "kebabPrice": 15.0
+  }
+]

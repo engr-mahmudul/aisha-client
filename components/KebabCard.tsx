@@ -7,8 +7,8 @@ export type FoodCardProps = {
   finnishName?: string;
   ingredients: string[];
   finnishIngredients?: string[];
-  normalPrice: number | string;
-  familyPrice: number | string | null;
+  chickenPrice: number | string;
+  kebabPrice: number | string | null;
   currency?: string;
   badgeInEnglish?: string;
   badgeInFinnish?: string;
@@ -19,13 +19,13 @@ type Props = FoodCardProps & {
   onOpen?: () => void;
 };
 
-export default function PizzaCard({
+export default function KebabCard({
   imageSrc,
   imageAlt,
   englishName,
   ingredients,
-  normalPrice,
-  familyPrice,
+  chickenPrice,
+  kebabPrice,
   currency = "EUR",
   badgeInEnglish,
   badgeInFinnish,
@@ -39,22 +39,22 @@ export default function PizzaCard({
   const remaining = Math.max(allIngs.length - shown.length, 0);
 
   const displayPrice =
-    typeof normalPrice === "number"
+    typeof chickenPrice === "number"
       ? new Intl.NumberFormat(undefined, {
           style: "currency",
           currency,
           maximumFractionDigits: 2,
-        }).format(normalPrice)
-      : normalPrice;
+        }).format(chickenPrice)
+      : chickenPrice;
 
   const displayPrice2 =
-    typeof familyPrice === "number"
+    typeof kebabPrice === "number"
       ? new Intl.NumberFormat(undefined, {
           style: "currency",
           currency,
           maximumFractionDigits: 2,
-        }).format(familyPrice)
-      : familyPrice;
+        }).format(kebabPrice)
+      : kebabPrice;
 
   return (
     <article
@@ -130,13 +130,13 @@ export default function PizzaCard({
                 className="text-black text-sm
               "
               >
-                Normal:
+                Chicken:
               </span>
               {displayPrice}
             </div>
-            {familyPrice && (
+            {kebabPrice && (
               <div className="text-base sm:text-lg font-bold tracking-tight text-red-400">
-                <span className="text-black text-sm">Family:</span>
+                <span className="text-black text-sm">Kebab:</span>
                 {displayPrice2}
               </div>
             )}
