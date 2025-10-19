@@ -122,9 +122,16 @@ export default function BurgerPage() {
                   <h3 className="text-sm font-semibold text-gray-900 mb-2">
                     Ingredients
                   </h3>
-                  <ul className="grid grid-cols-3 gap-x-4 gap-y-1 text-sm text-gray-700">
-                    {selected.ingredients.slice(0, 15).map((ing, i) => (
-                      <li key={i} className="truncate">
+                  <ul
+                    className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-800 list-disc pl-5"
+                    aria-label="Ingredients"
+                  >
+                    {selected.ingredients.map((ing, i) => (
+                      <li
+                        key={i}
+                        className="break-words whitespace-normal leading-snug pr-2"
+                        title={ing}
+                      >
                         {ing}
                       </li>
                     ))}

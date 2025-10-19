@@ -97,12 +97,12 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/asian" className="hover:text-amber-300">
-                  Crispy Flavors
+                  Asia
                 </Link>
               </li>
               <li>
                 <Link href="/offer&lunch" className="hover:text-amber-300">
-                  Breakfast Menu
+                  Lunch
                 </Link>
               </li>
               <li>
