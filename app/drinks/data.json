@@ -1,0 +1,26 @@
+[
+  {
+    "id": 57,
+    "imageSrc": "/assets/images/drinks.png",
+    "imageAlt": "Lassi Drink Image",
+    "englishName": "MANGO LASSI",
+    "finnishName": "MANGO LASSI",
+    "ingredients": ["Yogurt", "mango", "sugar"],
+    "finnishIngredients": ["jogurtti", "mango", "maito", "sokeri"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 5.0
+  },
+  {
+    "id": 58,
+    "imageSrc": "/assets/images/drinks.png",
+    "imageAlt": "Lassi Drink Image",
+    "englishName": "MANGO LASSI WITH GINGER",
+    "finnishName": "MANGO LASSI INKIVÄÄRILLÄ",
+    "ingredients": ["Yogurt", "mango", "ginger", "sugar"],
+    "finnishIngredients": ["jogurtti", "mango", "inkivääri", "maito", "sokeri"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "price": 5.0
+  }
+]
