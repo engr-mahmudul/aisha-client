@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import FoodCard, { FoodCardProps } from "@/components/FoodCard";
 import data from "./data.json";
+import PizzaCard, { FoodCardProps } from "@/components/PizzaCard";
 type MenuItem = {
   id: number;
   englishName: string;
@@ -11,7 +11,8 @@ type MenuItem = {
   finnishIngredients: string[];
   badgeInEnglish: string;
   badgeInFinnish: string;
-  price: number;
+  normalPrice: number;
+  familyPrice: number | null;
   imageSrc: string; // <-- was imgSrc
   imageAlt: string; // <-- was imgAlt
 };
@@ -45,14 +46,15 @@ export default function MenuPage() {
 
         <div className="grid gap-2 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
           {dummyMenu.map((item, i) => (
-            <FoodCard
+            <PizzaCard
               key={item.id}
               imageSrc={item.imageSrc}
               imageAlt={item.imageAlt}
               englishName={item.englishName} // <-- map to name
               ingredients={item.ingredients}
               finnishIngredients={item.finnishIngredients}
-              price={item.price}
+              normalPrice={item.normalPrice}
+              familyPrice={item.familyPrice}
               currency="EUR"
               badgeInEnglish={item.badgeInEnglish}
               badgeInFinnish={item.badgeInFinnish}
@@ -63,7 +65,8 @@ export default function MenuPage() {
                   englishName: item.englishName, // <-- map here too
                   ingredients: item.ingredients,
                   finnishIngredients: item.finnishIngredients,
-                  price: item.price,
+                  normalPrice: item.normalPrice,
+                  familyPrice: item.familyPrice,
                   currency: "EUR",
                   badgeInEnglish: item.badgeInEnglish,
                   badgeInFinnish: item.badgeInFinnish,
@@ -107,7 +110,7 @@ export default function MenuPage() {
                 <div className="relative w-full h-auto rounded-lg overflow-hidden mb-4 bg-black/5 flex justify-center">
                   <img
                     src={selected.imageSrc}
-                    alt={selected.imageAlt || selected.name}
+                    alt={selected.imageAlt || selected.englishName}
                     className="max-h-[75vh] w-auto object-contain"
                   />
                 </div>
@@ -128,15 +131,38 @@ export default function MenuPage() {
 
               {/* Footer */}
               <div className="px-5 py-3 border-t flex justify-between items-center">
-                <div className="text-xl font-bold text-gray-900">
-                  {typeof selected.price === "number"
+                <div className="text-xl font-bold text-red-500">
+                  <span
+                    className="text-black text-sm
+              "
+                  >
+                    Normal:
+                  </span>
+                  {typeof selected.normalPrice === "number"
                     ? new Intl.NumberFormat(undefined, {
                         style: "currency",
                         currency: selected.currency || "EUR",
                         maximumFractionDigits: 2,
-                      }).format(selected.price)
-                    : selected.price}
+                      }).format(selected.normalPrice)
+                    : selected.normalPrice}
                 </div>
+                {selected.familyPrice && (
+                  <div className="text-xl font-bold text-red-500">
+                    <span
+                      className="text-black text-sm
+              "
+                    >
+                      Family:
+                    </span>
+                    {typeof selected.familyPrice === "number"
+                      ? new Intl.NumberFormat(undefined, {
+                          style: "currency",
+                          currency: selected.currency || "EUR",
+                          maximumFractionDigits: 2,
+                        }).format(selected.familyPrice)
+                      : selected.familyPrice}
+                  </div>
+                )}
                 <button
                   className="rounded-md border border-red-600 text-red-600 px-4 py-2 text-sm hover:bg-red-50 font-medium"
                   onClick={() => setSelected(null)}

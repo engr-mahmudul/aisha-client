@@ -1,346 +1,394 @@
 [
   {
     "imageSrc": "/assets/images/image2.png",
-    "imageAlt": "Asian Dish Image",
-    "id": 40,
-    "englishName": "CHICKEN KORMA",
-    "finnishName": "KANA KORMA",
+    "imageAlt": "Pizza Menu Image",
+    "id": 1,
+    "englishName": "TROPICANA",
+    "finnishName": "TROPICANA",
+    "ingredients": ["kinkku", "pineapple"],
+    "finnishIngredients": ["kinkku", "ananas"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 10.0,
+    "familyPrice": 16.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 2,
+    "englishName": "AMERICANA",
+    "finnishName": "AMERICANA",
+    "ingredients": ["kinkku", "pineapple", "blue cheese"],
+    "finnishIngredients": ["kinkku", "ananas", "aurajuusto"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 11.0,
+    "familyPrice": 18.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 3,
+    "englishName": "OPERA SPECIAL",
+    "finnishName": "OPERA SPECIAL",
+    "ingredients": ["kinkku", "tuna", "salami"],
+    "finnishIngredients": ["kinkku", "tonnikala", "salami"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 11.0,
+    "familyPrice": 18.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 4,
+    "englishName": "FINLANDIA",
+    "finnishName": "FINLANDIA",
+    "ingredients": ["salami", "kinkku", "pineapple", "blue cheese"],
+    "finnishIngredients": ["salami", "kinkku", "ananas", "aurajuusto"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 12.0,
+    "familyPrice": 18.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 5,
+    "englishName": "DILLINGER",
+    "finnishName": "DILLINGER",
+    "ingredients": ["salami", "kinkku", "pineapple", "blue cheese"],
+    "finnishIngredients": ["salami", "kinkku", "ananas", "aurajuusto"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 12.0,
+    "familyPrice": 18.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 6,
+    "englishName": "PEKONI",
+    "finnishName": "PEKONI",
+    "ingredients": ["pekoni", "onion", "bell pepper", "blue cheese"],
+    "finnishIngredients": ["pekoni", "sipuli", "paprika", "aurajuusto"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 12.0,
+    "familyPrice": 20.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 7,
+    "englishName": "SUPER PIZZA",
+    "finnishName": "SUPER PIZZA",
+    "ingredients": ["salami", "kinkku", "pineapple", "blue cheese"],
+    "finnishIngredients": ["salami", "kinkku", "ananas", "aurajuusto"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 12.0,
+    "familyPrice": 20.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 8,
+    "englishName": "VIISIKKO",
+    "finnishName": "VIISIKKO",
     "ingredients": [
-      "Grilled chicken",
-      "Lightly spiced cream sauce",
-      "Cashew nuts",
-      "Onion",
-      "Garam masala",
-      "Herbs",
-      "Spices"
+      "kinkku",
+      "tuna",
+      "marinated chicken",
+      "pineapple",
+      "bell pepper"
     ],
     "finnishIngredients": [
-      "Grillattua kanaa",
-      "Kevyesti maustettua kermakastiketta",
-      "Cashewpähkinöitä",
-      "Sipulia",
-      "Garam masalaa",
-      "Yrttejä",
-      "Mausteita"
+      "kinkku",
+      "tonnikala",
+      "marinoitu kana",
+      "ananas",
+      "paprika"
     ],
     "badgeInEnglish": "",
     "badgeInFinnish": "",
-    "price": 17.0
+    "normalPrice": 12.0,
+    "familyPrice": 20.0
   },
   {
-    "id": 41,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "BUTTER CHICKEN",
-    "finnishName": "KANAA VOIKASTIKKEESSA",
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 9,
+    "englishName": "KINKKU & PEPPERONI",
+    "finnishName": "KINKKU & PEPPERONI",
+    "ingredients": ["kinkku", "pepperoni", "pineapple", "feta"],
+    "finnishIngredients": ["kinkku", "pepperoni", "ananas", "feta"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 12.0,
+    "familyPrice": 20.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 10,
+    "englishName": "KEBAB SPECIAL",
+    "finnishName": "KEBAB SPECIAL",
+    "ingredients": ["kebab", "tomato", "bell pepper", "jalapeño"],
+    "finnishIngredients": ["kebab", "tomaatti", "paprika", "jalapeño"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 12.0,
+    "familyPrice": 21.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 11,
+    "englishName": "JULIA",
+    "finnishName": "JULIA",
+    "ingredients": ["kinkku", "pineapple", "tomato", "blue cheese"],
+    "finnishIngredients": ["kinkku", "ananas", "tomaatti", "aurajuusto"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 12.0,
+    "familyPrice": 20.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 12,
+    "englishName": "ALLA POLLO",
+    "finnishName": "ALLA POLLO",
     "ingredients": [
-      "Grilled chicken",
-      "Aromatic cream sauce",
-      "Butter",
-      "Almonds"
+      "marinated chicken",
+      "pineapple",
+      "bell pepper",
+      "blue cheese"
     ],
+    "finnishIngredients": ["marinoitu kana", "ananas", "paprika", "aurajuusto"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 12.0,
+    "familyPrice": 20.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 13,
+    "englishName": "TONNIKALA",
+    "finnishName": "TONNIKALA",
+    "ingredients": ["tuna", "onion", "bell pepper", "pineapple"],
+    "finnishIngredients": ["tonnikala", "sipuli", "paprika", "ananas"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 12.0,
+    "familyPrice": 20.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 14,
+    "englishName": "VEGETARIAN",
+    "finnishName": "VEGETARIAN",
+    "ingredients": ["bell pepper", "pineapple", "onion", "olive", "mushroom"],
+    "finnishIngredients": ["paprika", "ananas", "sipuli", "oliivi", "sieni"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 13.0,
+    "familyPrice": 21.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 15,
+    "englishName": "TONNIKALA & KANA",
+    "finnishName": "TONNIKALA & KANA",
+    "ingredients": ["tuna", "chicken", "onion", "bell pepper"],
+    "finnishIngredients": ["tonnikala", "kana", "sipuli", "paprika"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 13.0,
+    "familyPrice": 22.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 16,
+    "englishName": "FESTIVAL",
+    "finnishName": "FESTIVAL",
+    "ingredients": ["marinated chicken", "feta", "tomato"],
+    "finnishIngredients": ["marinoitu kana", "feta", "tomaatti"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 13.0,
+    "familyPrice": 22.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 17,
+    "englishName": "HOT SPECIAL NEW",
+    "finnishName": "HOT SPECIAL NEW",
+    "ingredients": ["kebab", "hot pepper", "salami", "jalapeño", "pineapple"],
     "finnishIngredients": [
-      "Grillattua kanaa",
-      "Aromikasta kermakastiketta",
-      "Voi",
-      "Manteleita"
+      "kebab",
+      "hot pepper",
+      "salami",
+      "jalapeño",
+      "ananas"
     ],
     "badgeInEnglish": "",
     "badgeInFinnish": "",
-    "price": 17.5
+    "normalPrice": 14.0,
+    "familyPrice": 23.0
   },
   {
-    "id": 42,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "CHICKEN MANGO",
-    "finnishName": "MANGOKANAA",
-    "ingredients": ["Grilled chicken", "Mango cream sauce", "Herbs", "Spices"],
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 18,
+    "englishName": "SUPER MEAT SAUS",
+    "finnishName": "SUPER MEAT SAUS",
+    "ingredients": ["kebab", "ground beef", "salami", "jalapeño", "BBQ sauce"],
     "finnishIngredients": [
-      "Grillattua kanaa",
-      "Mangokermakastiketta",
-      "Yrttejä",
-      "Mausteita"
+      "kebab",
+      "jauheliha",
+      "salami",
+      "jalapeño",
+      "BBQ-kastike"
     ],
     "badgeInEnglish": "",
     "badgeInFinnish": "",
-    "price": 17.0
+    "normalPrice": 14.0,
+    "familyPrice": 24.5
   },
   {
-    "id": 43,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "CHICKEN MALAI",
-    "finnishName": "KANA MALAI",
-    "ingredients": [
-      "Marinated grilled chicken",
-      "Yogurt sauce",
-      "Cream",
-      "Cashew nuts",
-      "Black pepper",
-      "Garam masala",
-      "Ginger",
-      "Garlic",
-      "Spices"
-    ],
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 19,
+    "englishName": "SMETANA SPECIAL",
+    "finnishName": "SMETANA SPECIAL",
+    "ingredients": ["smetana", "salami", "kinkku", "ground beef", "jalapeño"],
     "finnishIngredients": [
-      "Marinoitua grillattua kanaa",
-      "Jogurttikastiketta",
-      "Kermaa",
-      "Cashewpähkinöitä",
-      "Mustapippuria",
-      "Garam masalaa",
-      "Inkivääriä",
-      "Valkosipulia",
-      "Mausteita"
+      "smetana",
+      "salami",
+      "kinkku",
+      "jauheliha",
+      "jalapeño"
     ],
     "badgeInEnglish": "",
     "badgeInFinnish": "",
-    "price": 18.9
+    "normalPrice": 14.0,
+    "familyPrice": 24.5
   },
   {
-    "id": 44,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "MUGHLAI CHICKEN",
-    "finnishName": "KANA MUGHLAI",
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 20,
+    "englishName": "BONI SPECIAL",
+    "finnishName": "BONI SPECIAL",
+    "ingredients": ["salami", "kinkku", "marinated chicken", "pineapple"],
+    "finnishIngredients": ["salami", "kinkku", "marinoitu kana", "ananas"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 14.0,
+    "familyPrice": 24.0
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 21,
+    "englishName": "OMAR SPECIAL",
+    "finnishName": "OMAR SPECIAL",
+    "ingredients": ["kebab", "pineapple", "feta", "blue cheese"],
+    "finnishIngredients": ["kebab", "ananas", "feta", "aurajuusto"],
+    "badgeInEnglish": "",
+    "badgeInFinnish": "",
+    "normalPrice": 13.9,
+    "familyPrice": 23.5
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 22,
+    "englishName": "VEGGIECHEES",
+    "finnishName": "VEGGIECHEES",
     "ingredients": [
-      "Grilled chicken",
-      "Lightly spiced cream sauce",
-      "Onion",
-      "Cashew nuts",
-      "Garam masala",
-      "Herbs",
-      "Spices"
+      "feta",
+      "mozzarella",
+      "blue cheese",
+      "bell pepper",
+      "onion"
     ],
     "finnishIngredients": [
-      "Grillattua kanaa",
-      "Kevyesti maustettua kermakastiketta",
-      "Sipulia",
-      "Cashewpähkinöitä",
-      "Garam masalaa",
-      "Yrttejä",
-      "Mausteita"
+      "feta",
+      "mozzarella",
+      "aurajuusto",
+      "paprika",
+      "sipuli"
     ],
     "badgeInEnglish": "",
     "badgeInFinnish": "",
-    "price": 18.9
+    "normalPrice": 12.5,
+    "familyPrice": 21.0
   },
   {
-    "id": 45,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "CHICKEN TIKKA MASALA",
-    "finnishName": "KANAA TIKKA MASALA",
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 23,
+    "englishName": "VEGGOMAZZA",
+    "finnishName": "VEGGOMAZZA",
     "ingredients": [
-      "Marinated grilled chicken",
-      "Aromatic cream tomato sauce",
-      "Exotic spices",
-      "Herbs"
+      "mozzarella",
+      "tomato",
+      "pineapple",
+      "onion",
+      "bell pepper"
     ],
     "finnishIngredients": [
-      "Marinoitua grillattua kanaa",
-      "Aromikasta kermatomaattikastiketta",
-      "Eksoottisia mausteita",
-      "Yrttejä"
+      "mozzarella",
+      "tomaatti",
+      "ananas",
+      "sipuli",
+      "paprika"
     ],
     "badgeInEnglish": "",
     "badgeInFinnish": "",
-    "price": 17.5
+    "normalPrice": 13.0,
+    "familyPrice": 21.0
   },
   {
-    "id": 46,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "CHICKEN COCONUT",
-    "finnishName": "KOOKOSKANAA",
-    "ingredients": [
-      "Exotic marinated chicken",
-      "Coconut sauce",
-      "Cashew nuts",
-      "Spices"
-    ],
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 24,
+    "englishName": "GLUTEN-FREE PIZZA",
+    "finnishName": "GLUTEENITON PIZZA",
+    "ingredients": ["same fillings as normal pizza with gluten-free base"],
     "finnishIngredients": [
-      "Eksoottisesti marinoitua kanaa",
-      "Kookoskastiketta",
-      "Cashewpähkinöitä",
-      "Mausteita"
+      "samat täytteet kuin normaalipizzassa, gluteeniton pohja"
+    ],
+    "badgeInEnglish": "Gluten Free",
+    "badgeInFinnish": "Gluteeniton",
+    "normalPrice": 12.0,
+    "familyPrice": null
+  },
+  {
+    "imageSrc": "/assets/images/image2.png",
+    "imageAlt": "Pizza Menu Image",
+    "id": 25,
+    "englishName": "KEBAB CALZONE",
+    "finnishName": "KEBAB CALZONE",
+    "ingredients": ["kebab", "tomato", "onion", "bell pepper", "jalapeño"],
+    "finnishIngredients": [
+      "kebab",
+      "tomaatti",
+      "sipuli",
+      "paprika",
+      "jalapeño"
     ],
     "badgeInEnglish": "",
     "badgeInFinnish": "",
-    "price": 17.0
-  },
-  {
-    "id": 47,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "CHICKEN MADRAS",
-    "finnishName": "MADRAS KANAA",
-    "ingredients": [
-      "Spicy tomato cream sauce",
-      "Grilled chicken",
-      "Herbs",
-      "Spices"
-    ],
-    "finnishIngredients": [
-      "Tulisesti maustettua kermatomaattikastiketta",
-      "Grillattua kanaa",
-      "Yrttejä",
-      "Mausteita"
-    ],
-    "badgeInEnglish": "",
-    "badgeInFinnish": "",
-    "price": 17.0
-  },
-  {
-    "id": 48,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "BIRYANI CHICKEN / LAMB",
-    "finnishName": "BIRYANI KANA / LAMMAS",
-    "ingredients": [
-      "Spiced rice",
-      "Grilled chicken or lamb",
-      "Raisins",
-      "Onion",
-      "Cashew nuts",
-      "Kewra water"
-    ],
-    "finnishIngredients": [
-      "Maustettua riisiä",
-      "Grillattua kanaa tai lammasta",
-      "Rusinoita",
-      "Sipulia",
-      "Cashewpähkinöitä",
-      "Kewra-vettä"
-    ],
-    "badgeInEnglish": "",
-    "badgeInFinnish": "",
-    "price": 18.0
-  },
-  {
-    "id": 49,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "LAMB REZALA MILD / HOT",
-    "finnishName": "LAMMAS REZALA MIETO / HOT",
-    "ingredients": [
-      "Mild or spicy cream sauce",
-      "Grilled lamb",
-      "Onion",
-      "Garam masala",
-      "Herbs",
-      "Spices"
-    ],
-    "finnishIngredients": [
-      "Miedosti tai tulisesti maustettua kermakastiketta",
-      "Grillattua lammasta",
-      "Sipulia",
-      "Garam masalaa",
-      "Yrttejä",
-      "Mausteita"
-    ],
-    "badgeInEnglish": "",
-    "badgeInFinnish": "",
-    "price": 19.0
-  },
-  {
-    "id": 50,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "GIANT SHRIMP KORMA MILD / HOT",
-    "finnishName": "JÄTTIKATKARAPU KORMA MIETO / HOT",
-    "ingredients": [
-      "Giant shrimp",
-      "Cream sauce",
-      "Cashew nuts",
-      "Onion",
-      "Garam masala",
-      "Herbs",
-      "Spices"
-    ],
-    "finnishIngredients": [
-      "Jättikatkarapuja",
-      "Kermakastiketta",
-      "Cashewpähkinöitä",
-      "Sipulia",
-      "Garam masalaa",
-      "Yrttejä",
-      "Mausteita"
-    ],
-    "badgeInEnglish": "",
-    "badgeInFinnish": "",
-    "price": 17.9
-  },
-  {
-    "id": 51,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "SPINACH AND PANEER",
-    "finnishName": "PINAATTIA JA HALLOUMIA",
-    "ingredients": ["Spinach", "Halloumi cheese", "Herbs", "Spices"],
-    "finnishIngredients": [
-      "Pinaattia",
-      "Halloumi-juustoa",
-      "Yrttejä",
-      "Mausteita"
-    ],
-    "badgeInEnglish": "VEGAN",
-    "badgeInFinnish": "VEGAANIANNOKSET",
-    "price": 16.0
-  },
-  {
-    "id": 52,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "FULKOPIR KORMA MILD OR HOT",
-    "finnishName": "KUKKAKAALI KORMA MIETO TAI HOT",
-    "ingredients": [
-      "Cauliflower",
-      "Cashew nuts",
-      "Onion",
-      "Garam masala",
-      "Herbs",
-      "Spices"
-    ],
-    "finnishIngredients": [
-      "Kukkakaalia",
-      "Cashewpähkinöitä",
-      "Sipulia",
-      "Garam masalaa",
-      "Yrttejä",
-      "Mausteita"
-    ],
-    "badgeInEnglish": "VEGAN",
-    "badgeInFinnish": "VEGAANIANNOKSET",
-    "price": 16.0
-  },
-  {
-    "id": 53,
-    "imageSrc": "/assets/images/image1.png",
-    "imageAlt": "Asian Dish Image",
-    "englishName": "DAL-TARKA",
-    "finnishName": "MAUSTETTUA LINSSIKASTIKETTA",
-    "ingredients": [
-      "Spiced lentil sauce",
-      "Coconut milk",
-      "Ginger",
-      "Garlic",
-      "Onion",
-      "Herbs",
-      "Spices"
-    ],
-    "finnishIngredients": [
-      "Maustettua linssikastiketta",
-      "Kookosmaitoa",
-      "Inkivääriä",
-      "Valkosipulia",
-      "Sipulia",
-      "Yrttejä",
-      "Mausteita"
-    ],
-    "badgeInEnglish": "VEGAN",
-    "badgeInFinnish": "VEGAANIANNOKSET",
-    "price": 16.0
+    "normalPrice": 12.0,
+    "familyPrice": null
   }
 ]
