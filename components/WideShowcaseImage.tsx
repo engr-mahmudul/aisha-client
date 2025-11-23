@@ -16,7 +16,7 @@ export default function WideShowcaseDocument({
   alt,
   caption,
   className = "mx-auto max-w-7xl px-1 py-1 ",
-  pdfHeightClassName = "h-[60vh] md:h-[90vh] lg:h-[120vh] xl:h-[98vh]", // taller so single-page fits nicely
+  pdfHeightClassName = "h-[60vh] md:h-[90vh] lg:h-[120vh] xl:h-[120vh]", // taller so single-page fits nicely
 }: Props) {
   const isPdf =
     typeof src === "string" && src.toLowerCase().trim().endsWith(".pdf");

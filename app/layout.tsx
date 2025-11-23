@@ -24,12 +24,16 @@ export default function RootLayout({
       >
         <div className="sticky top-0 z-50">
           {/* Top strip */}
-          <OpeningStatus />
+          {/* <OpeningStatus /> */}
           {/* Your navbar */}
-          <Navbar />
+          {/* <Navbar /> */}
+          <h1>Hello !</h1>
         </div>
-        <main>{children}</main>
-        <Footer />
+        {/* <main>{children}</main> */}
+        <main>
+          <h1>Welcome here</h1>
+        </main>
+        {/* <Footer /> */}
       </body>
     </html>
   );
